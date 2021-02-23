@@ -26,5 +26,15 @@
         app:layout_constraintStart_toStartOf="@+id/btnStartService"
         app:layout_constraintTop_toBottomOf="@+id/btnStartService" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch from service"
+        app:layout_constraintEnd_toEndOf="@+id/btnStopService"
+        app:layout_constraintStart_toStartOf="@+id/btnStopService"
+        app:layout_constraintTop_toBottomOf="@+id/btnStopService" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
